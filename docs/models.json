@@ -1,0 +1,796 @@
+{
+  "metadata": {
+    "source": "NVIDIA NIM API Catalog",
+    "api_url": "https://integrate.api.nvidia.com/v1/models",
+    "catalog_url": "https://build.nvidia.com",
+    "updated_at": "2026-11-20T17:53:59.766052+00:00",
+    "total_models": 33,
+    "free_endpoint_count": 22,
+    "downloadable_count": 11,
+    "deprecated_count": 0,
+    "note": "All models free for prototyping (rate limited ~40 RPM). Free Endpoint = hosted API. Downloadable = self-host only."
+  },
+  "models": [
+    {
+      "id": "bigcode/starcoder2-15b",
+      "name": "Starcoder2 15B",
+      "provider": "bigcode",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "coding",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding"
+      ],
+      "description": "Starcoder2 15B from bigcode",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/bigcode/starcoder2-15b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765789+00:00"
+    },
+    {
+      "id": "fastino/gliner2-pii",
+      "name": "Gliner2 Pii",
+      "provider": "fastino",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "structured_output"
+      ],
+      "description": "Gliner2 Pii from fastino",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/fastino/gliner2-pii",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765811+00:00"
+    },
+    {
+      "id": "google/gemma-3-12b-it",
+      "name": "Gemma 3 12B It",
+      "provider": "google",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "structured_output"
+      ],
+      "description": "Gemma 3 12B It from google",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/google/gemma-3-12b-it",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765820+00:00"
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Gemma 4 31B It",
+      "provider": "google",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "reasoning",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Gemma 4 31B It from google",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/google/gemma-4-31b-it",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765832+00:00"
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "name": "Muse Glimmer 30B",
+      "provider": "meta",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Muse Glimmer 30B from meta",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/meta/muse-glimmer-30b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765837+00:00"
+    },
+    {
+      "id": "minimaxai/minimax-m3.1-flash",
+      "name": "Minimax M3.1 Flash",
+      "provider": "minimaxai",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Minimax M3.1 Flash from minimaxai",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/minimaxai/minimax-m3.1-flash",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765842+00:00"
+    },
+    {
+      "id": "mistralai/mistral-large-4-1t-a52b",
+      "name": "Mistral Large 4 1T A52B",
+      "provider": "mistralai",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Mistral Large 4 1T A52B from mistralai",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/mistralai/mistral-large-4-1t-a52b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765848+00:00"
+    },
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "name": "Kimi K3.1 Pro",
+      "provider": "moonshotai",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "vision-language",
+      "context_window": 1048576,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Kimi K3.1 Pro from moonshotai",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/moonshotai/kimi-k3.1-pro",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765910+00:00"
+    },
+    {
+      "id": "nvidia/cosmos-reason2-8b",
+      "name": "Cosmos Reason2 8B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "capabilities": [
+        "tools",
+        "reasoning"
+      ],
+      "description": "Cosmos Reason2 8B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/cosmos-reason2-8b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765926+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Nemotron 3 Nano Omni 30B A3B Reasoning from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765971+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra 550B A55B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "reasoning",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Nemotron 3 Ultra 550B A55B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765976+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-bolt-e4b",
+      "name": "Nemotron 3.5 Bolt E4B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "reasoning",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Nemotron 3.5 Bolt E4B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765981+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety",
+      "name": "Nemotron 3.5 Content Safety",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [],
+      "description": "Nemotron 3.5 Content Safety from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-content-safety",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765985+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-embed-1b",
+      "name": "Nemotron 3.5 Embed 1B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Nemotron 3.5 Embed 1B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-embed-1b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765990+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-embed-8b",
+      "name": "Nemotron 3.5 Embed 8B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Nemotron 3.5 Embed 8B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-embed-8b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765994+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "name": "Nemotron 3.5 Lightning 30B A3B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "reasoning",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Nemotron 3.5 Lightning 30B A3B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766001+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "name": "Nemotron 3.5 Super Vl 120B A12B",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Nemotron 3.5 Super Vl 120B A12B from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766006+00:00"
+    },
+    {
+      "id": "nvidia/riva-translate-4b-instruct-v2",
+      "name": "Riva Translate 4B Instruct V2",
+      "provider": "nvidia",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools"
+      ],
+      "description": "Riva Translate 4B Instruct V2 from nvidia",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766020+00:00"
+    },
+    {
+      "id": "poolside/laguna-xs-2.1",
+      "name": "Laguna Xs 2.1",
+      "provider": "poolside",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "coding",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Laguna Xs 2.1 from poolside",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/poolside/laguna-xs-2.1",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766025+00:00"
+    },
+    {
+      "id": "snowflake/arctic-embed-l",
+      "name": "Arctic Embed L",
+      "provider": "snowflake",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Arctic Embed L from snowflake",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/snowflake/arctic-embed-l",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766030+00:00"
+    },
+    {
+      "id": "stepfun-ai/step-5-preview",
+      "name": "Step 5 Preview",
+      "provider": "stepfun-ai",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Step 5 Preview from stepfun-ai",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/stepfun-ai/step-5-preview",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766034+00:00"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Glm 5.3 Flash",
+      "provider": "z-ai",
+      "tier": "free_endpoint",
+      "status": "免費託管端點",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "coding",
+        "reasoning",
+        "structured_output"
+      ],
+      "description": "Glm 5.3 Flash from z-ai",
+      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "catalog_url": "https://build.nvidia.com/z-ai/glm-5.3-flash",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766038+00:00"
+    },
+    {
+      "id": "google/gemma-3-4b-it",
+      "name": "Gemma 3 4B It",
+      "provider": "google",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools",
+        "structured_output"
+      ],
+      "description": "Gemma 3 4B It from google",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/google/gemma-3-4b-it",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765825+00:00"
+    },
+    {
+      "id": "nvidia/ai-synthetic-video-detector",
+      "name": "Ai Synthetic Video Detector",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "video"
+      ],
+      "capabilities": [],
+      "description": "Ai Synthetic Video Detector from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/ai-synthetic-video-detector",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765916+00:00"
+    },
+    {
+      "id": "nvidia/embed-qa-4",
+      "name": "Embed Qa 4",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Embed Qa 4 from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/embed-qa-4",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765931+00:00"
+    },
+    {
+      "id": "nvidia/ising-calibration-1.5-31b",
+      "name": "Ising Calibration 1.5 31B",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "vision-language",
+      "context_window": null,
+      "model_type": "vlm",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "tools",
+        "coding"
+      ],
+      "description": "Ising Calibration 1.5 31B from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/ising-calibration-1.5-31b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765937+00:00"
+    },
+    {
+      "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "name": "Llama 3.1 Nemoguard 8B Topic Control",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools"
+      ],
+      "description": "Llama 3.1 Nemoguard 8B Topic Control from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765943+00:00"
+    },
+    {
+      "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+      "name": "Llama 3.1 Nemotron Safety Guard 8B V3",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "chat",
+      "context_window": null,
+      "model_type": "llm",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "tools"
+      ],
+      "description": "Llama 3.1 Nemotron Safety Guard 8B V3 from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765950+00:00"
+    },
+    {
+      "id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+      "name": "Llama 3.2 Nemoretriever 1B Vlm Embed V1",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Llama 3.2 Nemoretriever 1B Vlm Embed V1 from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765956+00:00"
+    },
+    {
+      "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+      "name": "Llama 3.2 Nv Embedqa 1B V1",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Llama 3.2 Nv Embedqa 1B V1 from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/llama-3.2-nv-embedqa-1b-v1",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765960+00:00"
+    },
+    {
+      "id": "nvidia/nemotron-3-embed-1b",
+      "name": "Nemotron 3 Embed 1B",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Nemotron 3 Embed 1B from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3-embed-1b",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.765965+00:00"
+    },
+    {
+      "id": "nvidia/nv-embedqa-mistral-7b-v2",
+      "name": "Nv Embedqa Mistral 7B V2",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Nv Embedqa Mistral 7B V2 from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/nv-embedqa-mistral-7b-v2",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766011+00:00"
+    },
+    {
+      "id": "nvidia/nvclip",
+      "name": "Nvclip",
+      "provider": "nvidia",
+      "tier": "downloadable",
+      "status": "可下載自架",
+      "category": "embedding",
+      "context_window": null,
+      "model_type": "embedding",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "embedding"
+      ],
+      "description": "Nvclip from nvidia",
+      "api_endpoint": null,
+      "catalog_url": "https://build.nvidia.com/nvidia/nvclip",
+      "deprecated": null,
+      "deprecation_date": null,
+      "last_updated": "2026-11-20T17:53:59.766015+00:00"
+    }
+  ]
+}

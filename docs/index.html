@@ -37,11 +37,11 @@
 <body>
     <div class="container">
         <h1>NVIDIA NIM 免費模型對照表</h1>
-        <p class="subtitle">資料來源：<a href="https://integrate.api.nvidia.com/v1/models" target="_blank">NVIDIA NIM Public Models API</a> | 更新時間：2026-11-24 03:47 UTC</p>
+        <p class="subtitle">資料來源：<a href="https://integrate.api.nvidia.com/v1/models" target="_blank">NVIDIA NIM Public Models API</a> | 更新時間：2026-11-25 03:50 UTC</p>
 
         <div class="stats">
-            <div class="stat">總模型數：<strong>32</strong></div>
-            <div class="stat">免費託管端點：<strong>22</strong></div>
+            <div class="stat">總模型數：<strong>30</strong></div>
+            <div class="stat">免費託管端點：<strong>20</strong></div>
             <div class="stat">可下載自架：<strong>10</strong></div>
             <div class="stat">已移除免費端點：<strong>0</strong></div>
         </div>
@@ -52,7 +52,7 @@
             <button class="filter-btn" data-filter="downloadable">可下載自架</button>
             <button class="filter-btn" data-filter="deprecated_free">已移除免費端點</button>
             <button class="filter-btn" data-filter="cat:chat">chat</button><button class="filter-btn" data-filter="cat:coding">coding</button><button class="filter-btn" data-filter="cat:embedding">embedding</button><button class="filter-btn" data-filter="cat:reasoning">reasoning</button><button class="filter-btn" data-filter="cat:vision-language">vision-language</button>
-            <button class="filter-btn" data-filter="prov:bigcode">bigcode</button><button class="filter-btn" data-filter="prov:fastino">fastino</button><button class="filter-btn" data-filter="prov:google">google</button><button class="filter-btn" data-filter="prov:meta">meta</button><button class="filter-btn" data-filter="prov:minimaxai">minimaxai</button><button class="filter-btn" data-filter="prov:mistralai">mistralai</button><button class="filter-btn" data-filter="prov:moonshotai">moonshotai</button><button class="filter-btn" data-filter="prov:nvidia">nvidia</button><button class="filter-btn" data-filter="prov:poolside">poolside</button><button class="filter-btn" data-filter="prov:snowflake">snowflake</button><button class="filter-btn" data-filter="prov:stepfun-ai">stepfun-ai</button><button class="filter-btn" data-filter="prov:z-ai">z-ai</button>
+            <button class="filter-btn" data-filter="prov:bigcode">bigcode</button><button class="filter-btn" data-filter="prov:fastino">fastino</button><button class="filter-btn" data-filter="prov:google">google</button><button class="filter-btn" data-filter="prov:minimaxai">minimaxai</button><button class="filter-btn" data-filter="prov:mistralai">mistralai</button><button class="filter-btn" data-filter="prov:moonshotai">moonshotai</button><button class="filter-btn" data-filter="prov:nvidia">nvidia</button><button class="filter-btn" data-filter="prov:poolside">poolside</button><button class="filter-btn" data-filter="prov:snowflake">snowflake</button><button class="filter-btn" data-filter="prov:stepfun-ai">stepfun-ai</button><button class="filter-btn" data-filter="prov:z-ai">z-ai</button>
         </div>
 
         <table id="modelsTable">
@@ -107,30 +107,6 @@
             <td>tools, structured_output</td>
             <td>Gemma 3 12B It from google</td>
             <td><a href="https://build.nvidia.com/google/gemma-3-12b-it" target="_blank">開啟</a></td>
-        </tr>
-        <tr data-tier="free_endpoint" data-category="reasoning" data-provider="google">
-            <td><code>google/gemma-4-31b-it</code></td>
-            <td>Gemma 4 31B It</td>
-            <td>google</td>
-            <td><span class="badge free_endpoint">🟢 免費託管端點</span> </td>
-            <td>reasoning</td>
-            <td>—</td>
-            <td>text</td>
-            <td>tools, coding, reasoning, structured_output</td>
-            <td>Gemma 4 31B It from google</td>
-            <td><a href="https://build.nvidia.com/google/gemma-4-31b-it" target="_blank">開啟</a></td>
-        </tr>
-        <tr data-tier="free_endpoint" data-category="vision-language" data-provider="meta">
-            <td><code>meta/muse-glimmer-30b</code></td>
-            <td>Muse Glimmer 30B</td>
-            <td>meta</td>
-            <td><span class="badge free_endpoint">🟢 免費託管端點</span> </td>
-            <td>vision-language</td>
-            <td>—</td>
-            <td>text, image</td>
-            <td>tools, coding, reasoning, structured_output</td>
-            <td>Muse Glimmer 30B from meta</td>
-            <td><a href="https://build.nvidia.com/meta/muse-glimmer-30b" target="_blank">開啟</a></td>
         </tr>
         <tr data-tier="free_endpoint" data-category="chat" data-provider="minimaxai">
             <td><code>minimaxai/minimax-m3.1-flash</code></td>

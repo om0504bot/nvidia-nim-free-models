@@ -3,9 +3,9 @@
     "source": "NVIDIA NIM API Catalog",
     "api_url": "https://integrate.api.nvidia.com/v1/models",
     "catalog_url": "https://build.nvidia.com",
-    "updated_at": "2026-11-24T03:47:04.185791+00:00",
-    "total_models": 32,
-    "free_endpoint_count": 22,
+    "updated_at": "2026-11-25T03:50:25.440726+00:00",
+    "total_models": 30,
+    "free_endpoint_count": 20,
     "downloadable_count": 10,
     "deprecated_count": 0,
     "note": "All models free for prototyping (rate limited ~40 RPM). Free Endpoint = hosted API. Downloadable = self-host only."
@@ -32,7 +32,7 @@
       "catalog_url": "https://build.nvidia.com/bigcode/starcoder2-15b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185542+00:00"
+      "last_updated": "2026-11-25T03:50:25.440461+00:00"
     },
     {
       "id": "fastino/gliner2-pii",
@@ -55,7 +55,7 @@
       "catalog_url": "https://build.nvidia.com/fastino/gliner2-pii",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185570+00:00"
+      "last_updated": "2026-11-25T03:50:25.440494+00:00"
     },
     {
       "id": "google/gemma-3-12b-it",
@@ -78,58 +78,7 @@
       "catalog_url": "https://build.nvidia.com/google/gemma-3-12b-it",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185580+00:00"
-    },
-    {
-      "id": "google/gemma-4-31b-it",
-      "name": "Gemma 4 31B It",
-      "provider": "google",
-      "tier": "free_endpoint",
-      "status": "免費託管端點",
-      "category": "reasoning",
-      "context_window": null,
-      "model_type": "llm",
-      "modalities": [
-        "text"
-      ],
-      "capabilities": [
-        "tools",
-        "coding",
-        "reasoning",
-        "structured_output"
-      ],
-      "description": "Gemma 4 31B It from google",
-      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
-      "catalog_url": "https://build.nvidia.com/google/gemma-4-31b-it",
-      "deprecated": null,
-      "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185598+00:00"
-    },
-    {
-      "id": "meta/muse-glimmer-30b",
-      "name": "Muse Glimmer 30B",
-      "provider": "meta",
-      "tier": "free_endpoint",
-      "status": "免費託管端點",
-      "category": "vision-language",
-      "context_window": null,
-      "model_type": "vlm",
-      "modalities": [
-        "text",
-        "image"
-      ],
-      "capabilities": [
-        "tools",
-        "coding",
-        "reasoning",
-        "structured_output"
-      ],
-      "description": "Muse Glimmer 30B from meta",
-      "api_endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
-      "catalog_url": "https://build.nvidia.com/meta/muse-glimmer-30b",
-      "deprecated": null,
-      "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185604+00:00"
+      "last_updated": "2026-11-25T03:50:25.440506+00:00"
     },
     {
       "id": "minimaxai/minimax-m3.1-flash",
@@ -155,7 +104,7 @@
       "catalog_url": "https://build.nvidia.com/minimaxai/minimax-m3.1-flash",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185611+00:00"
+      "last_updated": "2026-11-25T03:50:25.440525+00:00"
     },
     {
       "id": "mistralai/mistral-large-4-1t-a52b",
@@ -181,7 +130,7 @@
       "catalog_url": "https://build.nvidia.com/mistralai/mistral-large-4-1t-a52b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185618+00:00"
+      "last_updated": "2026-11-25T03:50:25.440534+00:00"
     },
     {
       "id": "moonshotai/kimi-k3.1-pro",
@@ -207,7 +156,7 @@
       "catalog_url": "https://build.nvidia.com/moonshotai/kimi-k3.1-pro",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185626+00:00"
+      "last_updated": "2026-11-25T03:50:25.440544+00:00"
     },
     {
       "id": "nvidia/cosmos-reason2-8b",
@@ -232,7 +181,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/cosmos-reason2-8b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185643+00:00"
+      "last_updated": "2026-11-25T03:50:25.440557+00:00"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
@@ -259,7 +208,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185686+00:00"
+      "last_updated": "2026-11-25T03:50:25.440604+00:00"
     },
     {
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -284,7 +233,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185692+00:00"
+      "last_updated": "2026-11-25T03:50:25.440610+00:00"
     },
     {
       "id": "nvidia/nemotron-3.5-bolt-e4b",
@@ -309,7 +258,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185698+00:00"
+      "last_updated": "2026-11-25T03:50:25.440615+00:00"
     },
     {
       "id": "nvidia/nemotron-3.5-content-safety",
@@ -329,7 +278,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-content-safety",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185708+00:00"
+      "last_updated": "2026-11-25T03:50:25.440621+00:00"
     },
     {
       "id": "nvidia/nemotron-3.5-embed-1b",
@@ -351,7 +300,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-embed-1b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185714+00:00"
+      "last_updated": "2026-11-25T03:50:25.440627+00:00"
     },
     {
       "id": "nvidia/nemotron-3.5-embed-8b",
@@ -373,7 +322,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-embed-8b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185719+00:00"
+      "last_updated": "2026-11-25T03:50:25.440632+00:00"
     },
     {
       "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
@@ -398,7 +347,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185726+00:00"
+      "last_updated": "2026-11-25T03:50:25.440642+00:00"
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
@@ -424,7 +373,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185732+00:00"
+      "last_updated": "2026-11-25T03:50:25.440648+00:00"
     },
     {
       "id": "nvidia/riva-translate-4b-instruct-v2",
@@ -446,7 +395,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v2",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185749+00:00"
+      "last_updated": "2026-11-25T03:50:25.440666+00:00"
     },
     {
       "id": "poolside/laguna-xs-2.1",
@@ -471,7 +420,7 @@
       "catalog_url": "https://build.nvidia.com/poolside/laguna-xs-2.1",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185754+00:00"
+      "last_updated": "2026-11-25T03:50:25.440671+00:00"
     },
     {
       "id": "snowflake/arctic-embed-l",
@@ -493,7 +442,7 @@
       "catalog_url": "https://build.nvidia.com/snowflake/arctic-embed-l",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185760+00:00"
+      "last_updated": "2026-11-25T03:50:25.440677+00:00"
     },
     {
       "id": "stepfun-ai/step-5-preview",
@@ -519,7 +468,7 @@
       "catalog_url": "https://build.nvidia.com/stepfun-ai/step-5-preview",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185768+00:00"
+      "last_updated": "2026-11-25T03:50:25.440682+00:00"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -544,7 +493,7 @@
       "catalog_url": "https://build.nvidia.com/z-ai/glm-5.3-flash",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185773+00:00"
+      "last_updated": "2026-11-25T03:50:25.440687+00:00"
     },
     {
       "id": "google/gemma-3-4b-it",
@@ -567,7 +516,7 @@
       "catalog_url": "https://build.nvidia.com/google/gemma-3-4b-it",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185591+00:00"
+      "last_updated": "2026-11-25T03:50:25.440515+00:00"
     },
     {
       "id": "nvidia/ai-synthetic-video-detector",
@@ -588,7 +537,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/ai-synthetic-video-detector",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185634+00:00"
+      "last_updated": "2026-11-25T03:50:25.440552+00:00"
     },
     {
       "id": "nvidia/embed-qa-4",
@@ -610,7 +559,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/embed-qa-4",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185649+00:00"
+      "last_updated": "2026-11-25T03:50:25.440563+00:00"
     },
     {
       "id": "nvidia/ising-calibration-1.5-31b",
@@ -634,7 +583,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/ising-calibration-1.5-31b",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185656+00:00"
+      "last_updated": "2026-11-25T03:50:25.440569+00:00"
     },
     {
       "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
@@ -656,7 +605,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/llama-3.1-nemoguard-8b-topic-control",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185662+00:00"
+      "last_updated": "2026-11-25T03:50:25.440578+00:00"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
@@ -678,7 +627,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185668+00:00"
+      "last_updated": "2026-11-25T03:50:25.440584+00:00"
     },
     {
       "id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
@@ -701,7 +650,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185674+00:00"
+      "last_updated": "2026-11-25T03:50:25.440592+00:00"
     },
     {
       "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
@@ -723,7 +672,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/llama-3.2-nv-embedqa-1b-v1",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185680+00:00"
+      "last_updated": "2026-11-25T03:50:25.440598+00:00"
     },
     {
       "id": "nvidia/nv-embedqa-mistral-7b-v2",
@@ -745,7 +694,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nv-embedqa-mistral-7b-v2",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185737+00:00"
+      "last_updated": "2026-11-25T03:50:25.440654+00:00"
     },
     {
       "id": "nvidia/nvclip",
@@ -768,7 +717,7 @@
       "catalog_url": "https://build.nvidia.com/nvidia/nvclip",
       "deprecated": null,
       "deprecation_date": null,
-      "last_updated": "2026-11-24T03:47:04.185743+00:00"
+      "last_updated": "2026-11-25T03:50:25.440659+00:00"
     }
   ]
 }
